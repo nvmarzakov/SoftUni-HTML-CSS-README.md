@@ -1,3 +1,3 @@
 # SoftUni-HTML-and-CSS
 
-<Course tasks and exercises>
+Course tasks and exercises
