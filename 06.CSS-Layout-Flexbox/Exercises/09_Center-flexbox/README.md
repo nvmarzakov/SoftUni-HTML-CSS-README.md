@@ -1,1 +1,2 @@
-![image](https://github.com/nvmarzakov/SoftUni-HTML-and-CSS/assets/114495254/4c1c8475-1ea0-4647-bc3c-bb953d0d1efb)
+![image](https://github.com/nvmarzakov/SoftUni-HTML-and-CSS/assets/114495254/81db8f8e-0a70-4a0a-ae19-97b95cb46f6d)
+
