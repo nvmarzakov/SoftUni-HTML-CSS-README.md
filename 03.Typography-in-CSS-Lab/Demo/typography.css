@@ -1,0 +1,70 @@
+html {
+    /* font-family: Georgia, 'Times New Roman',serif, Times;
+    font-size: 16px;
+    line-height: 1.5; */
+    font: 16px/1.5 Georgia, 'Times New Roman',serif, Times;
+}
+
+body, table, input, button {
+    font: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1em;
+    margin-bottom: 0.5em;
+    font-weight: normal;
+}
+
+h1 {font-size: 3em;}
+h2 {font-size: 2.4em;}
+h3 {font-size: 1.8em;}
+h4 {font-size: 1.4em;}
+h5 {font-size: 1.2em; font-weight: bold;}
+h6 {font-size: 1em; font-weight: bold;}
+
+p, p + ul, p + ol {
+    padding-bottom:1.5em ;
+}
+
+ul, ol, blockquote {
+    padding-left: 1.5em;
+}
+
+ul, ol {
+    list-style-position: inside;
+}
+
+blockquote {
+    border-left: 4px solid #CCC;
+    margin-bottom:1.5em ;
+    font-style: italic;
+    color: #667;
+}
+
+blockquote p:first-child:before {
+    display: inline-block;
+    content: '"';
+}
+
+blockquote p:first-child:before,
+blockquote:has(.author) p:nth-last-child(2):not(.author):after,
+blockquote p:nth-child(1):not(.author):after {
+    display: inline-block;
+    content: '"';
+}
+
+blockquote p:last-child {
+    padding-bottom: 0;
+}
+
+blockquote p.author {
+    text-align: right;
+    color: #111;
+}
+
+blockquote p.author:before {
+    display: inline-block;
+    content: '—';
+    padding-right: 0.5em;
+}
+
